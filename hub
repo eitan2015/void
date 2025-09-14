@@ -167,10 +167,6 @@ game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 462305
 loadstring(game:HttpGet('https://pastebin.com/raw/TUPmiMvr'))()
 end)
 
-sectionA:Button('Fe giant', function()
-loadstring(game:HttpGet('https://pastebin.com/raw/Hnb5iCAX'))()
-end)
-
 sectionA:Button('Fe Villin', function()
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
@@ -225,11 +221,14 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ySiL7rza'))()
 
 end)
 
-sectionA:Button('Fe giant', function()
+
+local sectionB = window:Section('green baseplate section 2')
+
+sectionB:Button('Fe giant', function()
 loadstring(game:HttpGet('https://pastebin.com/raw/Hnb5iCAX'))()
 end)
 
-sectionA:Button('Fe cube', function()
+sectionB:Button('Fe cube', function()
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
@@ -281,8 +280,4 @@ SendChatMessage(madeByDuckMessage)
 -- Loadstring for the Script (executed after sending messages)
 loadstring(game:HttpGet('https://pastebin.com/raw/wBJfNF7y'))()
 
-end)
-
-sectionA:Button('Fe giant', function()
-loadstring(game:HttpGet('https://pastebin.com/raw/Hnb5iCAX'))()
 end)
