@@ -149,18 +149,6 @@ sectionA:Button('Fe void boss', function()
 loadstring(game:HttpGet("https://pastebin.com/raw/7FSfE30W"))()
 end)
 
-sectionA:Button('Fe ultra skidded cannon', function()
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 4623059912,5463718312,5593848751,5505301521,4773932088,4876469013,6904794619")
-task.wait(3)
-
-
-loadstring(game:HttpGet('https://pastebin.com/raw/Zf7yadP7'))()
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("enjoy my script ;)")
-end)
-
 
 sectionA:Button('Fe burger blood water script', function()
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 4623059912")
