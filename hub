@@ -269,3 +269,29 @@ SendChatMessage(madeByDuckMessage)
 loadstring(game:HttpGet('https://pastebin.com/raw/wBJfNF7y'))()
 
 end)
+
+local sectionC = window:Section('doors')
+
+sectionC:Button('bobdoors (new script expect bugs)', function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/notzanocoddz4/bobdoors/main/main.lua"))()
+end)
+
+sectionC:Button('nullfire (new script expect bugs)', function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--THIS SCRIPT IS IN BETA REPORT ANY BUGS IN THE DISCORD
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/main/loader.lua"))()
+end)
+
+sectionC:Button('nullfire (new script expect bugs)', function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--THIS SCRIPT IS IN BETA REPORT ANY BUGS IN THE DISCORD
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/main/loader.lua"))()
+end)
+
